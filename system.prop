@@ -5,6 +5,7 @@ audio.offload.gapless.enabled=false
 audio.offload.min.duration.secs=60
 audio.offload.video=false
 media.aac_51_output_enabled=true
+use.voice.path.for.pcm.voip=false
 
 # Bluetooth
 persist.vendor.btstack.aac_frm_ctl.enabled=true
