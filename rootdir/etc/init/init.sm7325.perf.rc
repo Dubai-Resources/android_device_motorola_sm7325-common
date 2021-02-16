@@ -72,6 +72,9 @@ on property:persist.sys.device_provisioned=1
     setprop dalvik.vm.dex2oat-cpu-set 0,1,2,3,4,5,6
     setprop dalvik.vm.dex2oat-threads 6
 
+    # Enable PowerHAL hint processing
+    setprop vendor.powerhal.init 1
+
 service vendor.qti.hardware.display.composer /vendor/bin/hw/vendor.qti.hardware.display.composer-service
     override
     class hal animation

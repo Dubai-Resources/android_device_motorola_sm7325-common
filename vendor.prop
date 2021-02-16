@@ -246,8 +246,6 @@ ro.lmk.stall_limit_critical=40
 persist.device_config.mglru_native.lru_gen_config=core
 
 # Perf
-ro.vendor.extension_library=libqti-perfd-client.so
-ro.vendor.perf-hal.ver=2.2
 ro.vendor.perf.scroll_opt=true
 vendor.perf.framepacing.enable=1
 
