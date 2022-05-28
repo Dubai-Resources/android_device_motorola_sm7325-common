@@ -86,9 +86,6 @@ BOARD_USES_ALSA_AUDIO := true
 # Display
 TARGET_HAS_WIDE_COLOR_DISPLAY := true
 
-# DRM
-TARGET_ENABLE_MEDIADRM_64 := true
-
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(COMMON_PATH)/config.fs
 
