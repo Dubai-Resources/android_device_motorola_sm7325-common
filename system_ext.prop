@@ -1,2 +1,5 @@
+# Bluetooth
+persist.vendor.btstack.enable.lpa=true
+
 # Graphics
 persist.demo.hdmirotationlock=false
