@@ -35,9 +35,6 @@ persist.vendor.dpm.feature=11
 # FS-verity
 ro.apk_verity.mode=2
 
-# Graphics
-persist.demo.hdmirotationlock=false
-
 # HWUI
 debug.hwui.skia_atrace_enabled=false
 
