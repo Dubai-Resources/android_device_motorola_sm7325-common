@@ -391,6 +391,9 @@ on property:sys.boot_completed=1
     # Enable PowerHAL hint processing
     setprop vendor.powerhal.init 1
 
+    # Zram
+    swapon_all /vendor/etc/fstab.zram
+
 # corefile limit
 on property:persist.debug.trace=1
     mkdir /data/core 0777 root root
