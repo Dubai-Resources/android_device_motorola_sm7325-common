@@ -241,6 +241,9 @@ ro.lmk.filecache_min_kb=153600
 ro.lmk.kill_timeout_ms=50
 ro.lmk.stall_limit_critical=40
 
+# Multi-Gen LRU
+persist.device_config.mglru_native.lru_gen_config=core
+
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
 ro.vendor.perf-hal.ver=2.2
