@@ -18,6 +18,13 @@ debug.sf.enable_hwc_vds=1
 # CNE
 persist.vendor.cne.feature=1
 
+# Dalvik
+dalvik.vm.dex2oat64.enabled=true
+dalvik.vm.systemuicompilerfilter=speed
+dalvik.vm.image-dex2oat-threads=8
+dalvik.vm.dex2oat-filter=speed
+dalvik.vm.dex2oat-threads=8
+
 # Data
 persist.data.df.agg.dl_pkt=10
 persist.data.df.agg.dl_size=4096
