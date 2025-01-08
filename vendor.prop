@@ -241,6 +241,7 @@ ro.lmk.stall_limit_critical=40
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
 ro.vendor.perf-hal.ver=2.2
+vendor.perf.framepacing.enable=1
 
 # QSPM
 ro.vendor.qspm.enable=true
