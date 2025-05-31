@@ -396,6 +396,14 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     vendor/qcom/opensource/vibrator/excluded-input-devices.xml:$(TARGET_COPY_OUT_VENDOR)/etc/excluded-input-devices.xml
 
+# HIDL
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
+    device/motorola/sm7325-common/device_framework_matrix.xml \
+    hardware/qcom-caf/common/vendor_framework_compatibility_matrix.xml
+DEVICE_MATRIX_FILE += hardware/qcom-caf/common/compatibility_matrix.xml
+DEVICE_MANIFEST_FILE += device/motorola/sm7325-common/manifest.xml
+DEVICE_MANIFEST_FILE += device/motorola/sm7325-common/hidl/c2_manifest_vendor.xml
+
 # WiFi
 PRODUCT_PACKAGES += \
     android.hardware.wifi-service \
