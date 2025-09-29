@@ -66,6 +66,3 @@ ro.vendor.qti.va_aosp.support=1
 
 #Disable MTE Async for system server
 arm64.memtag.process.system_server=off
-
-# Enable Vulkan for HWUI
-ro.hwui.use_vulkan=true
