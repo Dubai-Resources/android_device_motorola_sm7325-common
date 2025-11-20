@@ -39,13 +39,6 @@ persist.dbg.vt_avail_ovr=1
 persist.dbg.wfc_avail_ovr=1
 ro.qcom.ims.use_moto_vt_ext=true
 
-# Infinity-X Props
-ro.product.marketname=Motorola Edge 30
-ro.infinity.soc=Snapdragon® 778G+ 5G
-ro.infinity.battery=4020 mAh
-ro.infinity.display=6.5″, 144Hz, 2400x1080
-ro.infinity.camera=50MP + 50MP + 2MP
-
 # Media
 ro.media.recorder-max-base-layer-fps=60
 
