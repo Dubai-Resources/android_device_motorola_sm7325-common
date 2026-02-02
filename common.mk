@@ -126,9 +126,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey
 
-# Enable whole-program R8 Java optimizations for system_server.
-FULL_SYSTEM_OPTIMIZE_JAVA := true
-
 # fastbootd
 PRODUCT_PACKAGES += \
     fastbootd
