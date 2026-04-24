@@ -23,7 +23,6 @@ persist.vendor.audio.ha_proxy.enabled=true
 persist.vendor.audio.ras.enabled=false
 persist.vendor.audio_hal.dsp_bit_width_enforce_mode=24
 persist.vendor.audio.speaker.prot.enable=true
-persist.vendor.audio.speaker.stereo=true
 persist.vendor.audio.spv4.enable=true
 persist.vendor.audio.vbat.enabled=false
 persist.vendor.audio.voicecall.speaker.stereo=false
