@@ -321,6 +321,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     rfs_msm_mpss_readonly_vendor_fsg_symlink
 
+# Powerhal properties
+PRODUCT_SYSTEM_PROPERTIES += \
+    ro.iorapd.enable=false \
+    iorapd.perfetto.enable=false
+
 # Sensors
 PRODUCT_PACKAGES += \
     android.hardware.sensors-service.multihal \
